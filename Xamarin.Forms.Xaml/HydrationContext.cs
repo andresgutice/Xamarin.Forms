@@ -16,5 +16,6 @@ namespace Xamarin.Forms.Xaml
 		public HydrationContext ParentContext { get; set; }
 		public Action<Exception> ExceptionHandler { get; set; }
 		public object RootElement { get; set; }
+		public bool UseDesignProperties { get; internal set; }
 	}
 }
